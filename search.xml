@@ -5,8 +5,8 @@
     
     <entry>
       <title>Linux下tar文件压缩与解压</title>
-      <link href="/posts/63534.html"/>
-      <url>/posts/63534.html</url>
+      <link href="/blog/posts/63534.html"/>
+      <url>/blog/posts/63534.html</url>
       
         <content type="html"><![CDATA[<h1 id="Linux下tar文件压缩和解压命令"><a href="#Linux下tar文件压缩和解压命令" class="headerlink" title="Linux下tar文件压缩和解压命令"></a>Linux下tar文件压缩和解压命令</h1><p>1.压缩命令：</p><p><code>tar  -zcvf   压缩文件名.tar.gz   被压缩文件名</code></p><p>可先切换到当前目录下。压缩文件名和被压缩文件名都可加入路径。</p><p>2.解压缩命令：</p><p><code>tar  -zxvf   压缩文件名.tar.gz</code></p>]]></content>
       
@@ -32,8 +32,8 @@
     
     <entry>
       <title>Tunnel</title>
-      <link href="/posts/11731.html"/>
-      <url>/posts/11731.html</url>
+      <link href="/blog/posts/11731.html"/>
+      <url>/blog/posts/11731.html</url>
       
         <content type="html"><![CDATA[<h1 id="Time-Travel"><a href="#Time-Travel" class="headerlink" title="Time Travel"></a>Time Travel</h1><blockquote><p><a href="http://pegasuswiki.tooo.top:29000" target="_blank" rel="noopener">白给云</a><br><a href="http://pegasuswiki.tooo.top:21000" target="_blank" rel="noopener">Code-Server</a><br><a href="http://pegasuswiki.tooo.top:27000" target="_blank" rel="noopener">Jupyter Notebook</a></p></blockquote>]]></content>
       
