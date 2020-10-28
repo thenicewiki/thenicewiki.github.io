@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>Linux下tar文件压缩与解压</title>
-      <link href="/posts/63534.html"/>
-      <url>/posts/63534.html</url>
+      <title>Jupyter Notebook学习笔记</title>
+      <link href="/posts/42313.html"/>
+      <url>/posts/42313.html</url>
       
-        <content type="html"><![CDATA[<h1 id="Linux下tar文件压缩和解压命令"><a href="#Linux下tar文件压缩和解压命令" class="headerlink" title="Linux下tar文件压缩和解压命令"></a>Linux下tar文件压缩和解压命令</h1><p>1.压缩命令：</p><p><code>tar  -zcvf   压缩文件名.tar.gz   被压缩文件名</code></p><p>可先切换到当前目录下。压缩文件名和被压缩文件名都可加入路径。</p><p>2.解压缩命令：</p><p><code>tar  -zxvf   压缩文件名.tar.gz</code></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Jupyter-快速上手"><a href="#Jupyter-快速上手" class="headerlink" title="Jupyter 快速上手"></a>Jupyter 快速上手</h1><blockquote><p>Jupyter Notebook是Python进行数据分析、人工智能的必备工具。</p></blockquote><h2 id="为什么学Jupyter-notebook？"><a href="#为什么学Jupyter-notebook？" class="headerlink" title="为什么学Jupyter notebook？"></a>为什么学Jupyter notebook？</h2><ul><li>学习简单，易于安装使用，耐心尝试之后，打代码健步如飞</li><li>编程界面简洁、颜值爆表，可以插入优美的数学公式和学习笔记</li><li>写好的代码可以导出为文档、PPT的形式在线分享，便于与他人交流代码</li><li>可独立运行单句、多句的Python代码，更具灵活性</li><li>能够调用iPython丰富的函数库，如数据图表输出、程序测速、重复运行</li><li>能够安装在云端，只需打开一个网页，即可让Phone、Pad随时随地，在线编辑运行代码</li></ul><h2 id="界面"><a href="#界面" class="headerlink" title="界面"></a>界面</h2><h3 id="代码运行交互"><a href="#代码运行交互" class="headerlink" title="代码运行交互"></a>代码运行交互</h3><h3 id="图像生成"><a href="#图像生成" class="headerlink" title="图像生成"></a>图像生成</h3><h3 id="数据可视化"><a href="#数据可视化" class="headerlink" title="数据可视化"></a>数据可视化</h3><h3 id="知识点笔记"><a href="#知识点笔记" class="headerlink" title="知识点笔记"></a>知识点笔记</h3><h3 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h3><h2 id="安装Jupyter-notebook"><a href="#安装Jupyter-notebook" class="headerlink" title="安装Jupyter notebook"></a>安装Jupyter notebook</h2><p>百度搜索<strong>清华大学源</strong></p><p>选择<strong>最新版</strong><code>Anaconda-Windows-x86_64.exe</code></p><p>下载完成后安装，一路<strong>Next</strong>，直到此处选择<strong>Add Anaconda to my PATH</strong></p><p>安装完成后，在开始菜单找到 <strong>Anaconda Navigator</strong> 运行</p><p>随后会弹出一个<code>Jupyter notebook</code>的<strong><em>网页</em></strong></p><p>选择 <strong>新建 -&gt; Python3</strong></p><p>输入简单的Python语句，再点击 <strong>运行</strong> 或 <strong><code>Shift + 回车</code></strong> </p><h2 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h2><p><code>h</code>查看所有快捷键</p><p><code>Shift + 回车</code> 运行本单元格代码块，并跳到下一个单元格</p><p><code>ctrl + 回车</code> 运行本单元格</p><p><code>a</code> 在上方新建一个单元格</p><p><code>b</code> 在下方新建一个单元格</p><p><code>d</code> 删除选中的单元格</p><p><code>x</code> 剪切本单元格</p><p><code>c</code> 复制本单元格</p><p><code>Shift v</code> 粘贴到上面</p><p><code>v</code> 粘贴到下面</p><p><code>m</code> 将代码单元格转换为Markdown单元格</p><h3 id="输入数学公式"><a href="#输入数学公式" class="headerlink" title="输入数学公式"></a>输入数学公式</h3><p>选择一个单元格，输入如下内容</p><pre class=" language-latex"><code class="language-latex">一元二次方程求解公式<span class="token equation string">$$</span>x = <span class="token function selector">\frac</span><span class="token punctuation">{</span>-b<span class="token function selector">\pm</span> <span class="token function selector">\sqrt</span><span class="token punctuation">{</span>b^2-4ac<span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">{</span>2a<span class="token punctuation">}</span><span class="token equation string">$$</span></code></pre><p>按 <code>Shift + Enter</code> 渲染</p><p><strong>结果如图</strong></p><h2 id="笔记注释"><a href="#笔记注释" class="headerlink" title="笔记注释"></a>笔记注释</h2><p>选择一个单元格，格式 <strong>Markdown</strong></p><pre class=" language-markdown"><code class="language-markdown"><span class="token title important"><span class="token punctuation">#</span> 一级标题</span><span class="token title important"><span class="token punctuation">##</span> 二级标题</span><span class="token title important"><span class="token punctuation">###</span> 三级标题</span><span class="token blockquote punctuation">></span> 这是一个引用<span class="token url">[我是超链接,点击跳转到GIthub](http://github.com)</span>​<span class="token code keyword">```sudo apt update``</span>`</code></pre>]]></content>
       
       
       <categories>
@@ -31,48 +31,25 @@
     
     
     <entry>
-      <title>Tunnel</title>
-      <link href="/posts/11731.html"/>
-      <url>/posts/11731.html</url>
+      <title>Linux下tar文件压缩与解压</title>
+      <link href="/posts/63534.html"/>
+      <url>/posts/63534.html</url>
       
-        <content type="html"><![CDATA[<h1 id="Time-Travel"><a href="#Time-Travel" class="headerlink" title="Time Travel"></a>Time Travel</h1><blockquote><p><a href="http://pegasuswiki.tooo.top:29000" target="_blank" rel="noopener">白给云</a><br><a href="http://pegasuswiki.tooo.top:21000" target="_blank" rel="noopener">Code-Server</a><br><a href="http://pegasuswiki.tooo.top:27000" target="_blank" rel="noopener">Jupyter Notebook</a></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h1 id="Linux下tar文件压缩和解压命令"><a href="#Linux下tar文件压缩和解压命令" class="headerlink" title="Linux下tar文件压缩和解压命令"></a>Linux下tar文件压缩和解压命令</h1><p>1.压缩命令：</p><p><code>tar  -zcvf   压缩文件名.tar.gz   被压缩文件名</code></p><p>可先切换到当前目录下。压缩文件名和被压缩文件名都可加入路径。</p><p>2.解压缩命令：</p><p><code>tar  -zxvf   压缩文件名.tar.gz</code></p>]]></content>
       
       
       <categories>
           
-          <category> Markdown </category>
+          <category> Linux </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Python </tag>
+            <tag> Linux </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Tunnel</title>
-      <link href="/posts/11731.html"/>
-      <url>/posts/11731.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="Time-Travel"><a href="#Time-Travel" class="headerlink" title="Time Travel"></a>Time Travel</h1><blockquote><p><a href="http://pegasuswiki.tooo.top:29000" target="_blank" rel="noopener">白给云</a><br><a href="http://pegasuswiki.tooo.top:21000" target="_blank" rel="noopener">Code-Server</a><br><a href="http://pegasuswiki.tooo.top:27000" target="_blank" rel="noopener">Jupyter Notebook</a></p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> Markdown </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Python </tag>
+            <tag> Ubuntu </tag>
             
         </tags>
       
